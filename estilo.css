@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center; /* CENTRADO DE TEXTO */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center; 
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav {
+    text-align: center; /* CENTRADO DEL CONTENIDO */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+nav ul li {
+    padding: 20px;;
+    margin: 0 80px; 
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 0;
+    background-color: #ff5722;
+    color: #fff;
+}
+
+.platos {
+    padding: 2rem 0;
+    background-color: #fff;
+}
+
+.platos h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.plato {
+    display: flex;
+    flex-direction: column; /* ELEMENTOS EN COLUMNA */
+    align-items: center; /* CENTRADO */
+    justify-content: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+    text-align: center; 
+}
+
+.plato img {
+    max-width: 150px;
+    margin-bottom: 1rem; /* ESPACIO ENTRE ELEMENTO Y TEXTO */
+}
+
+.plato h3 {
+    margin: 10px 0;
+}
+
+.plato p {
+    margin: 10px 0; 
+}
+
+.contacto {
+    background-color: #eee;
+    padding: 2rem 0;
+    text-align: center; 
+}
+
+.contacto p {
+    margin: 0.5rem 0;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center; 
+}
+
+footer p {
+    margin: 0;
+}
+
+.social {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.social li {
+    margin: 0 10px;
+}
+
+.social li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* FORMULARIO */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    background: transparent;
+    padding: 1px;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #282c34;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #c2ff1c;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    nav {
+        text-align: center;
+    }
+
+    .plato {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .plato img {
+        margin-bottom: 1rem;
+    }
+}
